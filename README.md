@@ -15,7 +15,7 @@ graph TD
     
     subgraph Local Environment
         Nexus -->|Prompt + JSON Schema| Ollama[Action Layer: Ollama API]
-        Ollama -->|LLM Inference (Llama 3.2)| Nexus
+        Ollama -->|"LLM Inference (Llama 3.2)"| Nexus
     end
     
     Nexus -->|Validate & Clean JSON| UI
